@@ -1,0 +1,86 @@
+
+.background {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    padding: 0 10rem 0 10rem;
+    flex-direction: column;
+    gap: 25px;
+    color: #fff;
+}
+
+.header-nav {
+    padding: 130px 0 0 0;
+}
+
+.header-nav h1 {
+    width: 60%;
+    font-size: 48px;
+    line-height: 1;
+    text-3xl lg:text-5xl xl:text-5xl w-11/12 lg:w-3/5 font-bold
+}
+
+.header-nav h4 {
+    width: 40%;
+    margin: 0 32px 0 0;
+}
+
+.button-primary {
+    background:#5E8B7E;
+    padding: 1rem 2rem 1rem 2rem;
+    color: #ffffff; 
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.button-primary:hover {
+    background: #ff3b07;
+    
+}
+
+@media (max-width: 768px) {
+    .header-nav {
+        width: 91.666667%;
+        font-size: 30px;
+        line-height: 36px;
+}
+
+.header-nav h4 {
+    width: 100%;
+    
+}
+}
+
+@media screen  and (max-width:1023px) {
+    .btn-academic {
+    @apply float-none flex justify-center mt-10;
+}
+
+.btn-academic2{
+    @apply mt-[30px]
+}
+
+.pc-btn {
+     @apply before:float-none bg-[#5E8B7E] w-32 px-4 py-3 text-white rounded-[30px] font-bold text-xs ;
+}
+
+.pc-btn1 {
+    @apply bg-white w-32 px-4 py-3 text-black rounded-[30px] font-bold text-xs ;
+}
+
+.pc-btn2 {
+    @apply bg-[#5E8B7E] w-32 px-3 py-2 text-white rounded-[30px] font-bold text-[10px];
+}
+
+}
+
